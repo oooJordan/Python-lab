@@ -28,14 +28,11 @@ e ritornare le stringa così costruita.
 Esempio: se il contenuto dei tre file A.txt, B.txt e C.txt nella directory
 test01 è il seguente
 
-test01/A.txt          test01/B.txt         test01/C.txt                                                                 
--------------------------------------------------------------------------------
-test01/B.txt          test01/C.txt         test01/A.txt
-house                 home                 kite                                                                       
-garden                park                 hello                                                                       
-kitchen               affair               portrait                                                                     
-balloon                                    angel                                                                                                                                               
-                                           surfing                                                               
+1) test01/A.txt -> kite, hello, portrait, angel, surfing
+2) test01/B.txt -> home, park, affair
+3) test01/C.txt -> house, garden, kitchen, balloon
+
+                                                           
 
 la funzione most_frequent_chars("test01/A.txt") dovrà restituire la stringa
 "hareennt".
